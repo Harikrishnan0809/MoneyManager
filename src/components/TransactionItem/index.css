@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-history-container {
+  display: flex;
+  border: solid 1px #334155;
+  padding: 0px;
+  padding-left: 20px;
+  border-top: none;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-image {
+  height: 20px;
+  width: 20px;
+}
+
+.para-history {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 17px;
+  width: 25%;
+}
