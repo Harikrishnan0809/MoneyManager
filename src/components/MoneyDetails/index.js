@@ -6,8 +6,8 @@ const MoneyDetails = props => {
   const {balance, income, expenses} = props
 
   return (
-    <ul className="un-order-list-container">
-      <li className="list-container bg-green">
+    <div className="un-order-list-container">
+      <div className="list-container bg-green">
         <img
           className="list-image"
           alt="balance"
@@ -19,9 +19,9 @@ const MoneyDetails = props => {
             Rs {balance}
           </p>
         </div>
-      </li>
+      </div>
 
-      <li className="list-container bg-blue">
+      <div className="list-container bg-blue">
         <img
           className="list-image"
           alt="income"
@@ -33,9 +33,9 @@ const MoneyDetails = props => {
             Rs {income}
           </p>
         </div>
-      </li>
+      </div>
 
-      <li className="list-container bg-violet">
+      <div className="list-container bg-violet">
         <img
           className="list-image"
           alt="expenses"
@@ -47,8 +47,8 @@ const MoneyDetails = props => {
             Rs {expenses}
           </p>
         </div>
-      </li>
-    </ul>
+      </div>
+    </div>
   )
 }
 

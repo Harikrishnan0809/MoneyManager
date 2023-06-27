@@ -139,7 +139,7 @@ class MoneyManager extends Component {
               </label>
               <select className="input" onChange={this.onChangePaymentType}>
                 {transactionTypeOptions.map(eachItem => (
-                  <option value={eachItem.optionId}>
+                  <option key={eachItem.optionId} value={eachItem.optionId}>
                     {eachItem.displayText}
                   </option>
                 ))}
